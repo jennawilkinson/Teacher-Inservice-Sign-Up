@@ -53,3 +53,12 @@ article div {
 div.empty {
     background-color: black;
 }
+
+a {
+  color: yellow;  
+}
+
+nav {
+    padding: 15px;
+    color: yellow;
+}

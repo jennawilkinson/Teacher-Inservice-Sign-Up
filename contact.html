@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+<body>
+    <header>My Website</header>
+    <section>
+        <nav>
+            <h3>Nav</h3>
+            <a href = "index.html">Sign Up</a>
+        </nav>
+        <article>
+            <h1>Personal Info</h1>
+            <form>
+                <label for="first">First Name</label>
+                <input name="first" type="text">
+                <p></p>
+                <label for="last">Last Name</label>
+                <input name="last" type="text">
+                <p></p>
+                <label for="email">Email</label>
+                <input name="email" type="email">
+                <p></p>
+                <label for=gender>Gender:</label>
+                <input type=radio name=gender value=female>Female
+                <input type=radio name=gender value=female>Male
+                <input type=radio name=gender value=other>Other
+                <p></p>
+                <label for=age>Age</label>
+                <input type=number step=1 name=age>
+                 <label for="phone">Phone Number:</label>
+                <p></p>
+                <input type="tel" id="phone" name="phone"
+                       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                       required>
+                <p></p>
+                <label>How do you prefer to be contacted?</label>
+                <select name=contact>
+                    <option value=phone>Phone</option>
+                    <option value=email>Email</option>
+                </select>
+                <input type=reset>
+                <input type=submit>
+                
+            </form>
+        </article>
+    </section>
+    <footer></footer>
+</body>
+</html>
